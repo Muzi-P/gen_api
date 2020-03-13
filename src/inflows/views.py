@@ -4,7 +4,7 @@ from rest_framework import generics
 
 
 class InflowList(generics.ListCreateAPIView):
-    queryset = Inflow.objects.all()
+    queryset = Inflow.objects.all().order_by('Day_of_Input')
     serializer_class = InflowSerializer
 
 
