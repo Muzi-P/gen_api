@@ -9,8 +9,9 @@ class Inflow(models.Model):
     GS_2 = models.DecimalField(max_digits=20, decimal_places=3, default=0)
     GS_15 = models.DecimalField(max_digits=20, decimal_places=3, default=0)
     Ferreira = models.DecimalField(max_digits=20, decimal_places=3, default=0)
-    Luphohlo_Daily_Level = models.DecimalField(max_digits=20, decimal_places=3, default=0)
-    Mkinkomo_Reservor_Daily_Level = models.DecimalField(
+    Luphohlo_Daily_Level = models.DecimalField(
+        max_digits=20, decimal_places=3, default=0)
+    Mkinkomo_Reservoir_Daily_Level = models.DecimalField(
         max_digits=20, decimal_places=3, default=0)
 
 

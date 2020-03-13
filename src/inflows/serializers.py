@@ -6,7 +6,7 @@ from inflows.models import Inflow
 class InflowSerializer(serializers.ModelSerializer):
     class Meta:
         model = Inflow
-        fields = ['Day_of_Input', 'GS_2', 'GS_15', 'Ferreira', 'Luphohlo_Daily_Level', 'Mkinkomo_Reservor_Daily_Level']
+        fields = ['Day_of_Input', 'GS_2', 'GS_15', 'Ferreira', 'Luphohlo_Daily_Level', 'Mkinkomo_Reservoir_Daily_Level']
 
 
 
